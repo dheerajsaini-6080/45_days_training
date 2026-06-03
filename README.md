@@ -8,92 +8,111 @@ Python training repository containing daily assignments, practice exercises, and
 45_days_training/
 │
 ├── Day_1_task/
-│   ├── README.md
-│   ├── intro.py
-│   ├── skills_counter.py
-│   ├── even_odd.py
-│   ├── tip_calculator.py
-│   ├── word_frequency.py
-│   ├── calculator.py
-│   ├── grade_classifier.py
-│   ├── guessing_game.py
-│   └── contact_book.py
-│
 ├── Day_4_task/
-│   ├── README.md
-│   ├── student_report.py
-│   ├── comprehension_drills.py
-│   ├── file_records.py
-│   ├── typed_calculator.py
-│   ├── library_system.py
-│   ├── config_manager.py
-│   ├── pandas_explore.py
-│   ├── fraction_class.py
-│   └── inventory.py
-│
+├── Day_7_task/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
-## Day 1 Tasks – Python Fundamentals
+---
 
-| File                  | What it does                                                           |
-| --------------------- | ---------------------------------------------------------------------- |
-| `intro.py`            | Prints a structured self-introduction using variables and dictionaries |
-| `skills_counter.py`   | Displays a numbered list of skills and calculates the total            |
-| `even_odd.py`         | Determines whether a number is even, odd, or zero                      |
-| `tip_calculator.py`   | Calculates tip amount and total bill                                   |
-| `word_frequency.py`   | Counts word occurrences in a sentence                                  |
-| `calculator.py`       | Performs basic arithmetic operations                                   |
-| `grade_classifier.py` | Assigns grades based on student marks                                  |
-| `guessing_game.py`    | Random number guessing game                                            |
-| `contact_book.py`     | Contact search system using dictionaries                               |
+# Day 1 – Python Fundamentals
 
-### Concepts Practiced
+Practice tasks focused on Python basics, problem-solving, and core programming concepts.
 
-* Variables and Data Types
-* Lists and Dictionaries
+| File                  | Description                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| `intro.py`            | Student profile using variables, dictionaries, and f-strings |
+| `skills_counter.py`   | Numbered skills list using loops and enumerate()             |
+| `even_odd.py`         | Even/Odd/Zero checker with exception handling                |
+| `tip_calculator.py`   | Tip and total bill calculator                                |
+| `word_frequency.py`   | Word frequency counter using dictionaries                    |
+| `calculator.py`       | Basic arithmetic calculator                                  |
+| `grade_classifier.py` | Student grade classification system                          |
+| `guessing_game.py`    | Number guessing game                                         |
+| `contact_book.py`     | Contact search system                                        |
+
+### Concepts Covered
+
+* Variables
+* Lists
+* Dictionaries
 * Loops
 * Functions
-* String Manipulation
+* User Input
 * Exception Handling
-* User Input Processing
-* Searching and Sorting
+* Searching
+* Sorting
 
 ---
 
-## Day 4 Tasks – Intermediate Python
+# Day 4 – Intermediate Python
 
-| File                      | What it does                                        |
-| ------------------------- | --------------------------------------------------- |
-| `student_report.py`       | Student management system using classes and objects |
-| `comprehension_drills.py` | List, dictionary, and set comprehension exercises   |
-| `file_records.py`         | CSV file processing and report generation           |
-| `typed_calculator.py`     | Calculator with type hints and docstrings           |
-| `library_system.py`       | Demonstrates inheritance and polymorphism           |
-| `config_manager.py`       | JSON configuration file manager                     |
-| `pandas_explore.py`       | Data analysis using Pandas DataFrames               |
-| `fraction_class.py`       | Fraction class using operator overloading           |
-| `inventory.py`            | Inventory management system using OOP               |
+Practice tasks focused on Object-Oriented Programming, File Handling, JSON, CSV, and Pandas.
 
-### Concepts Practiced
+| File                      | Description                                     |
+| ------------------------- | ----------------------------------------------- |
+| `student_report.py`       | Student report system using classes and objects |
+| `comprehension_drills.py` | List, dictionary, and set comprehensions        |
+| `file_records.py`         | CSV file reading and writing                    |
+| `typed_calculator.py`     | Calculator using type hints                     |
+| `library_system.py`       | Inheritance and polymorphism                    |
+| `config_manager.py`       | JSON configuration manager                      |
+| `pandas_explore.py`       | Data analysis using Pandas                      |
+| `fraction_class.py`       | Operator overloading with dunder methods        |
+| `inventory.py`            | Inventory management system                     |
 
-* Object-Oriented Programming (OOP)
+### Concepts Covered
+
+* OOP
 * Classes and Objects
 * Inheritance
 * Polymorphism
 * Type Hints
-* CSV File Handling
-* JSON File Handling
+* CSV Handling
+* JSON Handling
 * Pandas
 * Operator Overloading
-* Dunder Methods
-* File I/O Operations
+* File I/O
 
 ---
 
-## Setup
+# Day 7 – Pandas & NumPy Essentials
+
+Practice tasks focused on Intermediate Python, Data Analysis, NumPy, and Pandas.
+
+| File                  | Description                                          |
+| --------------------- | ---------------------------------------------------- |
+| `student_profile.py`  | Student profile card using type hints and f-strings  |
+| `json_report.py`      | JSON report generation using list comprehensions     |
+| `learner_class.py`    | Class creation and object instantiation              |
+| `dataframe_filter.py` | DataFrame filtering and column selection             |
+| `loc_iloc_demo.py`    | Demonstration of loc and iloc                        |
+| `missing_values.py`   | Handling missing values with Pandas                  |
+| `quick_insights.py`   | Dataset insights using describe() and value_counts() |
+| `numpy_slicing.py`    | NumPy array creation, inspection, and slicing        |
+| `numpy_similarity.py` | Masking, broadcasting, and cosine similarity         |
+
+### Concepts Covered
+
+* Type Hints
+* JSON Processing
+* List Comprehensions
+* Classes and Objects
+* Pandas DataFrames
+* Data Filtering
+* Missing Value Handling
+* describe()
+* value_counts()
+* NumPy Arrays
+* Broadcasting
+* Boolean Masking
+* Cosine Similarity
+
+---
+
+# Setup
 
 Clone the repository:
 
@@ -101,7 +120,7 @@ Clone the repository:
 git clone https://github.com/dheerajsaini-6080/45_days_training.git
 ```
 
-Move to the project directory:
+Move into the project:
 
 ```bash
 cd 45_days_training
@@ -113,7 +132,7 @@ Create a virtual environment:
 python -m venv .venv
 ```
 
-Activate the virtual environment:
+Activate the environment:
 
 ### Windows
 
@@ -127,7 +146,7 @@ Activate the virtual environment:
 source .venv/bin/activate
 ```
 
-Install required packages:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -135,22 +154,49 @@ pip install -r requirements.txt
 
 ---
 
-## Requirements
+# Requirements
 
 ```text
 pandas>=2.0.0
+numpy>=1.26.0
 ```
 
 ---
 
-## How to Run
+# How to Run
 
-Example:
+### Day 1
 
 ```bash
 python Day_1_task/intro.py
 ```
 
+### Day 4
+
 ```bash
 python Day_4_task/student_report.py
 ```
+
+### Day 7
+
+```bash
+python Day_7_task/student_profile.py
+```
+
+---
+
+# Skills Practiced
+
+* Python Programming
+* Object-Oriented Programming
+* Data Structures
+* File Handling
+* JSON Processing
+* CSV Processing
+* Pandas
+* NumPy
+* Type Hints
+* Data Analysis
+* Git & GitHub
+
+---
