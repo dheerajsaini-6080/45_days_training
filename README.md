@@ -1,8 +1,10 @@
 # 45_DAYS_TRAINING
 
-Python training repository containing daily assignments, practice exercises, and mini-projects completed during the AIML Crash Course.
+A structured repository containing Python, Data Analysis, Machine Learning Foundations, Pandas, NumPy, SQL, Visualization, and Mini Project assignments completed as part of an AIML training program.
 
-## Repository Structure
+---
+
+# Repository Structure
 
 ```text
 45_days_training/
@@ -10,6 +12,10 @@ Python training repository containing daily assignments, practice exercises, and
 ├── Day_1_task/
 ├── Day_4_task/
 ├── Day_7_task/
+├── Day_10_task/
+├── Day_11_task/
+├── Phase_1_Mini_Project/
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -19,96 +25,217 @@ Python training repository containing daily assignments, practice exercises, and
 
 # Day 1 – Python Fundamentals
 
-Practice tasks focused on Python basics, problem-solving, and core programming concepts.
+Focus: Core Python Programming
 
-| File                  | Description                                                  |
-| --------------------- | ------------------------------------------------------------ |
-| `intro.py`            | Student profile using variables, dictionaries, and f-strings |
-| `skills_counter.py`   | Numbered skills list using loops and enumerate()             |
-| `even_odd.py`         | Even/Odd/Zero checker with exception handling                |
-| `tip_calculator.py`   | Tip and total bill calculator                                |
-| `word_frequency.py`   | Word frequency counter using dictionaries                    |
-| `calculator.py`       | Basic arithmetic calculator                                  |
-| `grade_classifier.py` | Student grade classification system                          |
-| `guessing_game.py`    | Number guessing game                                         |
-| `contact_book.py`     | Contact search system                                        |
+### Topics Covered
 
-### Concepts Covered
-
-* Variables
-* Lists
-* Dictionaries
+* Variables and Data Types
+* Lists and Dictionaries
 * Loops
 * Functions
 * User Input
 * Exception Handling
-* Searching
-* Sorting
+* Searching and Sorting
+
+### Tasks
+
+* Self Introduction
+* Skills Counter
+* Even/Odd Checker
+* Tip Calculator
+* Word Frequency Counter
+* Calculator
+* Grade Classifier
+* Guessing Game
+* Contact Book
 
 ---
 
 # Day 4 – Intermediate Python
 
-Practice tasks focused on Object-Oriented Programming, File Handling, JSON, CSV, and Pandas.
+Focus: Object-Oriented Programming and File Handling
 
-| File                      | Description                                     |
-| ------------------------- | ----------------------------------------------- |
-| `student_report.py`       | Student report system using classes and objects |
-| `comprehension_drills.py` | List, dictionary, and set comprehensions        |
-| `file_records.py`         | CSV file reading and writing                    |
-| `typed_calculator.py`     | Calculator using type hints                     |
-| `library_system.py`       | Inheritance and polymorphism                    |
-| `config_manager.py`       | JSON configuration manager                      |
-| `pandas_explore.py`       | Data analysis using Pandas                      |
-| `fraction_class.py`       | Operator overloading with dunder methods        |
-| `inventory.py`            | Inventory management system                     |
+### Topics Covered
 
-### Concepts Covered
-
-* OOP
 * Classes and Objects
 * Inheritance
 * Polymorphism
 * Type Hints
 * CSV Handling
 * JSON Handling
-* Pandas
+* Pandas Basics
 * Operator Overloading
-* File I/O
+
+### Tasks
+
+* Student Report System
+* Comprehension Drills
+* File Records
+* Typed Calculator
+* Library System
+* Config Manager
+* Pandas Exploration
+* Fraction Class
+* Inventory System
 
 ---
 
-# Day 7 – Pandas & NumPy Essentials
+# Day 7 – Pandas and NumPy Essentials
 
-Practice tasks focused on Intermediate Python, Data Analysis, NumPy, and Pandas.
+Focus: Data Analysis Fundamentals
 
-| File                  | Description                                          |
-| --------------------- | ---------------------------------------------------- |
-| `student_profile.py`  | Student profile card using type hints and f-strings  |
-| `json_report.py`      | JSON report generation using list comprehensions     |
-| `learner_class.py`    | Class creation and object instantiation              |
-| `dataframe_filter.py` | DataFrame filtering and column selection             |
-| `loc_iloc_demo.py`    | Demonstration of loc and iloc                        |
-| `missing_values.py`   | Handling missing values with Pandas                  |
-| `quick_insights.py`   | Dataset insights using describe() and value_counts() |
-| `numpy_slicing.py`    | NumPy array creation, inspection, and slicing        |
-| `numpy_similarity.py` | Masking, broadcasting, and cosine similarity         |
+### Topics Covered
 
-### Concepts Covered
-
-* Type Hints
-* JSON Processing
-* List Comprehensions
-* Classes and Objects
-* Pandas DataFrames
+* DataFrames
 * Data Filtering
-* Missing Value Handling
-* describe()
-* value_counts()
+* loc and iloc
+* Missing Values
+* JSON Processing
 * NumPy Arrays
 * Broadcasting
 * Boolean Masking
 * Cosine Similarity
+
+### Tasks
+
+* Student Profile
+* JSON Report
+* Learner Class
+* DataFrame Filtering
+* loc vs iloc
+* Missing Values
+* Quick Insights
+* NumPy Slicing
+* NumPy Similarity
+
+---
+
+# Day 10 – Advanced Pandas, Visualization and SQL
+
+Focus: Business Analytics Workflow
+
+### Topics Covered
+
+* Data Auditing
+* Data Cleaning
+* GroupBy Operations
+* Table Merging
+* Pivot Tables
+* Data Visualization
+* SQL Queries
+* Business Insights
+
+### Tasks
+
+* Data Audit
+* Data Cleaning
+* GroupBy Analysis
+* Merge Metrics
+* Pivot Tables
+* Visualizations
+* Chart Story
+* SQL Queries
+* Pandas vs SQL Comparison
+
+### Libraries Used
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SQLite
+
+---
+
+# Day 11 – Mathematics for Machine Learning & Exploratory Data Analysis
+
+Focus: Mathematical Foundations of Machine Learning
+
+### Topics Covered
+
+* Derivatives
+* Slope Intuition
+* Gradient Descent
+* Probability Distributions
+* Exploratory Data Analysis
+* Correlation Analysis
+* Data Visualization
+
+### Tasks
+
+* Derivative Visualization
+* Gradient Descent Experiment
+* Uniform Distribution Analysis
+* Normal Distribution Analysis
+* California Housing Dataset EDA
+
+### Libraries Used
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+
+---
+
+# Phase 1 Mini Project
+
+## E-Commerce Sales Performance Analysis
+
+### Project Objective
+
+Analyze e-commerce sales data to identify:
+
+* Revenue Trends
+* Customer Behavior
+* Product Performance
+* Geographic Performance
+* Seller Contribution
+* Payment Preferences
+
+### Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Data Exploration
+4. Dataset Merging
+5. Business Analysis
+6. Visualization
+7. Insights Generation
+8. Final Recommendations
+
+### Key Analyses
+
+* Top Revenue Categories
+* Top Revenue Cities
+* Customer Lifetime Value
+* Monthly Sales Trends
+* Payment Method Analysis
+* Seller Performance Analysis
+* Customer Review Analysis
+* Repeat Customer Analysis
+
+### Deliverables
+
+* Jupyter Notebook
+* Project Report (PDF)
+* Visualizations
+* Business Insights
+* Recommendations
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SQLite
+* Jupyter Notebook
+* Git
+* GitHub
 
 ---
 
@@ -132,7 +259,7 @@ Create a virtual environment:
 python -m venv .venv
 ```
 
-Activate the environment:
+Activate environment:
 
 ### Windows
 
@@ -154,49 +281,3 @@ pip install -r requirements.txt
 
 ---
 
-# Requirements
-
-```text
-pandas>=2.0.0
-numpy>=1.26.0
-```
-
----
-
-# How to Run
-
-### Day 1
-
-```bash
-python Day_1_task/intro.py
-```
-
-### Day 4
-
-```bash
-python Day_4_task/student_report.py
-```
-
-### Day 7
-
-```bash
-python Day_7_task/student_profile.py
-```
-
----
-
-# Skills Practiced
-
-* Python Programming
-* Object-Oriented Programming
-* Data Structures
-* File Handling
-* JSON Processing
-* CSV Processing
-* Pandas
-* NumPy
-* Type Hints
-* Data Analysis
-* Git & GitHub
-
----
